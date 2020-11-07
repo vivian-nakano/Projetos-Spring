@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<script src="controller.js"></script>
+
+</head>      
+<body>
+
+	Esta é a index.
+	<hr>
+
+	<a href="index.html"> Home </a> |
+	<a href="lista.html"> Lista </a> |
+	<a href="inserir.html"> Inserir </a> |
+
+	<hr>
+	<form> 
+	Id: <br><input type="number" name=""> <br>
+	Nome: <br><input type="text" name="" size="30" placeholder="Digite o nome do serviço."> <br>
+	Data: <br><input type="date" name="" required> <br>
+	Status: <br><input type="text" name="" placeholder="True/False"> <br>
+	<br>
+	<input type="submit">
+	<button> CLIQUE AQUI </button>
+	
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+package com.example.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.repository.PostagemRepository;
+
+@RestController //informa pro Spring que se trata de controlador
+@RequestMapping("/postagens") //postagens é URI
+@CrossOrigin("*") //sinal de vezes, essa classe aceita requisições de qualquer origem
+
+public class PostagemController {
+	
+	@Autowired //como é interface, nao dá pra instanciar. Instanciação fica por conta do spring: aí usa autowired
+	private PostagemRepository repository; //repository é o nome
+
+	
+	
+}

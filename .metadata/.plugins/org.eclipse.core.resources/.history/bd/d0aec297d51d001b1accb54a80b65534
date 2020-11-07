@@ -1,0 +1,14 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@RestController
+public class Controller implements WebMvcConfigurer {
+	
+	public void addViewControllers(ViewControllerRegistry index) {
+		index.addViewController("/").setViewName("forward:/index.html");
+	}
+
+}

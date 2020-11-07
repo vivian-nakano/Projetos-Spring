@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	Esta é a index.
+	<hr>
+
+	<a href="index.html"> Home </a> |
+	<a href="lista.html"> Lista </a> |
+	<a href="inserir.html"> Inserir </a> |
+
+	<form> 
+	Id: <input type="number" name=""> <br><br>
+	Nome: <input type="text" name="" size="30" placeholder="Digite o nome do serviço."> <br><br>
+	Data: <input type="date" name="" required> <br><br>
+	Status: <input type="text" name="" placeholder="True/False"> <br>
+	
+	</form>
+
+</body>
+</html>

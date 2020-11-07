@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	Esta é a index. <hr>
+	<a href = "index.html"> Home </a><br> 
+	<a href = "lista.html"> Lista </a><br> 
+	<a href = "inserir.html"> Inserir </a><br>
+	
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@RestController
+public class Controller implements WebMvcConfigurer {
+	
+	//para acessar a página pelo localhost:8080 -> te leva pra index
+	public void addViewControllers(ViewControllerRegistry index) {
+		index.addViewController("/").setViewName("forward:/index.html");
+		
+	}
+}
