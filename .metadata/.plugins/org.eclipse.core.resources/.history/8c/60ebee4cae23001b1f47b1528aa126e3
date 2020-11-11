@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MVC</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="controller.js">
+	
+</script>
+
+</head>
+<body>
+	Esta é a index
+
+	<hr>
+	<a href="index.html"> Home </a> |
+	<a href="lista.html"> Lista </a> |
+	<a href="inserir.html"> Inserir </a> |
+	<a href="atualizar.html"> Atualizar </a> |
+	
+	<hr>
+
+	<hr>
+
+	<a href="index.html">Home</a> |
+	<a href="lista.html">Lista</a> |
+	<a href="inserir.html">Inserir </a> |
+	<a href="atualizar.html">Atualizar </a>
+
+	<hr>
+
+</body>
+</html>

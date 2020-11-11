@@ -1,6 +1,6 @@
 package com.example.demo;
 
-import java.util.Date; 
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,7 +13,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.sun.istack.NotNull;
 
 @Entity
-@Table
+@Table(name="tb_manutencao_crud")
 public class ManutencaoTable {
 
 	@Id

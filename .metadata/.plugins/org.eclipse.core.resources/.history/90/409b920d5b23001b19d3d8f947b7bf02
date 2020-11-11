@@ -1,0 +1,36 @@
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope, $http) {
+  $scope.manutencoes = new Object();
+$scope.salvar = function() {
+  $http.post("http://localhost:8080/manutencoes", {
+    'id':$scope.id,
+    'nome':$scope.nome,
+    'categoria':$scope.categoria,
+    'data':$scope.data,
+    'pago':$scope.pago
+  })
+  };
+$scope.buscarTodos = function(){
+	 $http.get("http://localhost:8080/manutencoes").then(function(resposta) {
+		 $scope.manutencoes = resposta.data;
+	 });
+}
+$scope.buscarTodos();
+	$scope.put = function(){
+		$http.put("http://localhost:8080/manutencoes/ "+$scope.id,{
+			
+			'nome':$scope.nome,
+			'categoria':$scope.categoria,
+			'pago':$scope.pago
+		})
+	}
+	
+	 @GetMapping("/teste")
+	    public ResponseEntity<List<ManutencaoTable>> listAllItens() {
+	        List<ManutencaoTable> itens= service.findAllItens();
+	        if(itens.isEmpty()){
+	            return new ResponseEntity<List<ManutencaoTable>>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
+	        }
+	        return new ResponseEntity<List<ManutencaoTable>>(itens, HttpStatus.ACCEPTED);
+	    }
+});

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="minhaLojaGames-1"/>
 <aop-project name="webmvc"/>
+<aop-project name="minhaLojaGames"/>
 <aop-project name="exerciciosSpring"/>
+<aop-project name="bancodedados"/>
 <aop-project name="dados2"/>
 <aop-project name="blogPessoal"/>
 </aop-reference-model>

@@ -1,0 +1,5 @@
+package integracao.bancodedados;
+
+public class ContatoModel {
+
+}
