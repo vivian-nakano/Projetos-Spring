@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="aulaJUnit2"/>
+<aop-project name="blog-pessoal-deploy"/>
+<aop-project name="bancodedados"/>
+<aop-project name="dados2"/>
+<aop-project name="aulaJUnit3"/>
 <aop-project name="minhaLojaGames-1"/>
 <aop-project name="webmvc"/>
 <aop-project name="minhaLojaGames"/>
 <aop-project name="exerciciosSpring"/>
-<aop-project name="bancodedados"/>
-<aop-project name="dados2"/>
+<aop-project name="springSecurity1"/>
 <aop-project name="blogPessoal"/>
+<aop-project name="segurancaAula1"/>
 </aop-reference-model>

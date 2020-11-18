@@ -6,9 +6,19 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Vivi\Desktop\Spring-Security"/>
+			<item value="C:\Users\Vivi\Desktop\secTurma11"/>
+			<item value="C:\Users\Vivi\Desktop\segurança_base\secaula1"/>
+			<item value="C:\Users\Vivi\Desktop\segurança_base"/>
 			<item value="C:\Users\Vivi\Desktop\junit-base-main"/>
 		</list>
 		<list key="projectNameTemplate">
+			<item value="blog-pessoal-deploy"/>
+			<item value="springSecurity1"/>
+			<item value="sec"/>
+			<item value="segura"/>
+			<item value="saasa"/>
+			<item value="segurancaAula1"/>
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
 			<item value="[artifactId]-[version]"/>

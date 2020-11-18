@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;integracao.bancodedados.contatos.ContatoModel&apos; to &apos;Contato&apos;&#x0D;&#x0A;- Original project: &apos;aulaJUnit3&apos;&#x0D;&#x0A;- Original element: &apos;integracao.bancodedados.contatos.ContatoModel&apos;&#x0D;&#x0A;- Renamed element: &apos;integracao.bancodedados.contatos.Contato&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ContatoModel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;integracao.bancodedados.contatos{ContatoModel.java[ContatoModel" matchStrategy="1" name="Contato" qualified="false" references="true" similarDeclarations="false" stamp="1605554384142" textual="false" version="1.0"/>
+</session>

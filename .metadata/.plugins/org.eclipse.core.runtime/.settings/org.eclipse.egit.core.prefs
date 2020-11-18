@@ -1,4 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\Vivi\\Documents\\workspace-sts-3.9.12.RELEASE\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\Vivi\\git\\Spring_Seguran-aFullComCript\\.git;C\:\\Users\\Vivi\\Desktop\\Spring-Security\\.git;C\:\\Users\\Vivi\\git\\blog_PessoalDeploy_Doker\\.git;C\:\\Users\\Vivi\\Desktop\\Projetos-Spring\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\Vivi\\git\\Spring_Seguran-aFullComCript\\.git;C\:\\Users\\Vivi\\Desktop\\Spring-Security\\.git;C\:\\Users\\Vivi\\git\\blog_PessoalDeploy_Doker\\.git;.git;
+RepositoryGroups.uuids=
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;lojaGames.postman_collection.json&apos; to &apos;minhaLojaGames-1/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;minhaLojaGames&apos;&#x0D;&#x0A;- Destination element: &apos;minhaLojaGames-1/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;lojaGames.postman_collection.json&apos;" description="Copy file" destination="=minhaLojaGames-1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="com/example/demo/lojaGames.postman_collection.json" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1605737465087" units="0" version="1.0"/>
+</session>
