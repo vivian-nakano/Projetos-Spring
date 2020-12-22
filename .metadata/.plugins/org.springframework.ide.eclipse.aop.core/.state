@@ -9,6 +9,6 @@
 <aop-project name="bancodedados"/>
 <aop-project name="springSecurity1"/>
 <aop-project name="dados2"/>
-<aop-project name="blogPessoal"/>
 <aop-project name="segurancaAula1"/>
+<aop-project name="blogPessoal"/>
 </aop-reference-model>
